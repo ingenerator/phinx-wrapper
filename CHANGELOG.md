@@ -4,6 +4,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## 0.1.1 (2018-02-08)
+
+* Fix over-strict check for the adapater type that fails when phinx is 
+  using a wrapped adapter e.g for timing operations
 
 ## 0.1.0 (2018-02-08)
 

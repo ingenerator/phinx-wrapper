@@ -61,12 +61,7 @@ abstract class IngeneratorBaseMigration extends AbstractMigration
      */
     public function getAdapter()
     {
-        $adapter = parent::getAdapter();
-        if ( ! $adapter instanceof PdoAdapter) {
-            throw new \UnexpectedValueException('Expected a '.PdoAdapter::class.' adapter, got '.get_class($adapter));
-        }
-
-        return $adapter;
+        return parent::getAdapter();
     }
 
     final public function createDatabase($name, $options)
