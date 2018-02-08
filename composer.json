@@ -1,0 +1,29 @@
+{
+  "name": "ingenerator/phinx-wrapper",
+  "description": "Wrapper library to configure and support Phinx the way we use it",
+  "homepage": "https://github.com/ingenerator/phinx-wrapper",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Andrew Coulton",
+      "email": "andrew@ingenerator.com"
+    }
+  ],
+  "require": {
+    "php": "^5.5||^7.0",
+    "robmorgan/phinx": "^0.9.2"
+  },
+  "support": {
+    "source": "https://github.com/ingenerator/phinx-wrapper",
+    "issues": "https://github.com/ingenerator/phinx-wrapper/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ingenerator\\PhinxWrapper\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
